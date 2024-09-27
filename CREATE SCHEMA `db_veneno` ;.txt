@@ -1,0 +1,11 @@
+CREATE SCHEMA `db_veneno` ;
+
+INSERT INTO `db_veneno`.`tbl_clientes` (`nome`, `sobrenome`, `nacionalidade`, `profissao`, `estado_civil`, `rg`, `cpf`, `endereco`, `numero_do_endereco`, `estado`, `cep`, `peso`, `altura`, `idade`, `dd_mm_aaaa`) VALUES ('henrique', 'veneno', 'brasileira', 'desempregado', 'solteiro', '14215841', '14523698745', 'rua la pra la', '56', 'parana', '8965745', '88', '181', '17', '25_12_2006');
+
+INSERT INTO `db_veneno`.`tbl_clientes` (`nome`, `sobrenome`, `nacionalidade`, `profissao`, `estado_civil`, `rg`, `cpf`, `endereco`, `numero_do_endereco`, `estado`, `cep`, `peso`, `altura`, `idade`, `dd_mm_aaaa`) VALUES ('soberbo', 'nuka', 'italiano', 'gogo boy', 'sozinho', '19718987', '87989746578', 'rua italou', '1515', 'paris', '7894444', '78', '176', '38', '17_06_1986');
+
+INSERT INTO `db_veneno`.`tbl_clientes` (`nome`, `sobrenome`, `nacionalidade`, `profissao`, `estado_civil`, `rg`, `cpf`, `endereco`, `numero_do_endereco`, `estado`, `cep`, `peso`, `altura`, `idade`, `dd_mm_aaaa`) VALUES ('julios', 'pobre', 'mao de vaca', 'dois empregos', 'rochele', '89746546', '12452526212', 'broklinm', '471', 'tompsom', '7985416', '97', '192', '47', '05_02_1977');
+
+UPDATE `db_veneno`.`tbl_clientes` SET `nome` = 'rogerio', `sobrenome` = 'cola' WHERE (`id` = '2');
+
+DELETE FROM `db_veneno`.`tbl_clientes` WHERE (`id` = '3');
