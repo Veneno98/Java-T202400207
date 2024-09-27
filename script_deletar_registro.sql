@@ -1,0 +1,1 @@
+DELETE FROM `db_turma_java`.`tbl_alunos` WHERE(`id` = '2');

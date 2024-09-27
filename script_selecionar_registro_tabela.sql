@@ -1,0 +1,1 @@
+SELECT * FROM `db_turma_java`.`tbl_alunos` where `nome` like '%s';
